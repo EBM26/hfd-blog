@@ -129,10 +129,29 @@ $(document).ready(function($){
 				output += '</div>';
 				count++;
 			}
+
+			else {
+				output = '<div class="result-box"><p>Sorry, nothing found</p></div>';
+			}
 		});
 		output += '</div>';
 		$('.search-results').html(output);
 	});
+
+
+	// recent posts code
+	$('#title1').html('Is Your Home Making You Sick');
+	$('#author1').html('<b>Bill Lewis</b> - March 23, 2018');
+	$('#link1').attr("href", "air-health.html");
+	$('#title2').html('How Safe Is Your Water');
+	$('#author2').html('<b>Nicole Trelour, ND</b> - February 12, 2017');
+	$('#link2').attr("href", "air-health.html");
+	$('#title3').html('Air Health Inside and Out');
+	$('#author3').html('<b>Nicole Trelour, ND</b> - April 6, 2017');
+	$('#link3').attr("href", "air-health.html");
+	$('#title4').html('The New Way to Get Energy');
+	$('#author4').html('<b>Nicole Trelour, ND</b> - October 9, 2017');
+	$('#link14').attr("href", "air-health.html");
 
 }); // end of document ready function
 
