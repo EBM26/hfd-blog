@@ -87,21 +87,25 @@ $(document).ready(function($){
 	var data = [  
 	{  
 		"article_name":"Is Your Home Making You Sick",
+		"article_link":"air-health.html",
 		"article_date":"March 23, 2018",
 		"profile_image":"images/pollen_sad_face.jpg"
 	},
 	{  
 		"article_name":"How Safe Is Your Water",
+		"article_link":"air-health.html",
 		"article_date":"February 12, 2017",
 		"profile_image":"images/carrots.jpg"
 	},
 	{  
 		"article_name":"Air Health Inside and Out",
+		"article_link":"air-health.html",
 		"article_date":"April 6, 2017",
 		"profile_image":"images/pollution_outside.jpg"
 	},
 	{  
 		"article_name":"The New Way to Get Energy",
+		"article_link":"air-health.html",
 		"article_date":"August 13, 2018",
 		"profile_image":"images/organic-veggies.jpg"
 	}
@@ -120,11 +124,13 @@ $(document).ready(function($){
 		$.each(data, function(key, val){
 			if ((val.article_date.search(regex) != -1) || (val.article_name.search(regex) != -1)) {
 				output += '<div class="result-box">';
-				output += '<div class="search-photo"><img class="" src="'+val.profile_image+'" alt="'+ val.article_name +'" /></div>';
+				output += '<a href="'+val.article_link+'" >';
+				output += '<div class="search-photo"><img src="'+val.profile_image+'" alt="'+ val.article_name +'" /></div>';
 				output += '<div class="search-details">';
 				output += '<p class="name">' + val.article_name + '</p>';
 				output += '<p class="date">' + val.article_date + '</p>';
 				output += '</div>';
+				output += '</a>';
 				output += '<div class="clear"></div>';
 				output += '</div>';
 				count++;
