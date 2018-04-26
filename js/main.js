@@ -82,32 +82,70 @@ $(document).ready(function($){
 
 	$('.search-img, .close').click(function() {
 		$('.search-box').toggleClass('active-search');
+		$('.search-input').select();
 	});
+
 
 	var data = [  
 	{  
 		"article_name":"Is Your Home Making You Sick",
 		"article_link":"air-health.html",
 		"article_date":"March 23, 2018",
-		"profile_image":"images/pollen_sad_face.jpg"
+		"article_image":"images/pollen_sad_face.jpg"
 	},
 	{  
-		"article_name":"How Safe Is Your Water",
-		"article_link":"air-health.html",
-		"article_date":"February 12, 2017",
-		"profile_image":"images/carrots.jpg"
+		"article_name":"3 Unexpected Links to Alzheimer's Disease You Need to Know",
+		"article_link":"altzheimers.html",
+		"article_date":"July 12, 2016",
+		"article_image":"images/old-man.jpg"
 	},
 	{  
-		"article_name":"Air Health Inside and Out",
-		"article_link":"air-health.html",
-		"article_date":"April 6, 2017",
-		"profile_image":"images/pollution_outside.jpg"
+		"article_name":"Bladder Problems? 10 Ways to Train Your Bladder",
+		"article_link":"bladder-training.html",
+		"article_date":"April 24, 2016",
+		"article_image":"images/training.jpg"
 	},
 	{  
-		"article_name":"The New Way to Get Energy",
-		"article_link":"air-health.html",
-		"article_date":"August 13, 2018",
-		"profile_image":"images/organic-veggies.jpg"
+		"article_name":"Your Grandmother Would NEVER Eat Today's Veggies",
+		"article_link":"healthy-veggies.html",
+		"article_date":"February 4, 2017",
+		"article_image":"images/carrots-big2.jpg"
+	},
+	{  
+		"article_name":"How to Take Control of Your Insomnia",
+		"article_link":"insomnia.html",
+		"article_date":"August 29, 2016",
+		"article_image":"images/insomnia.jpg"
+	},
+	{  
+		"article_name":"Daily Joint Pain Relief: A Short Guide",
+		"article_link":"joint-pain.html",
+		"article_date":"June 2, 2016",
+		"article_image":"images/joint-pain.jpg"
+	},
+	{  
+		"article_name":"6 Shocking Foods That Are Healthier Than You Thought",
+		"article_link":"shocking-foods.html",
+		"article_date":"September 22, 2016",
+		"article_image":"images/eggs.jpg"
+	},
+	{  
+		"article_name":"The All-Natural Way to Prevent Migraines",
+		"article_link":"migraines.html",
+		"article_date":"October 14, 2016",
+		"article_image":"images/headache.jpg"
+	},
+	{  
+		"article_name":"The All-Natural Way to Prevent Migraines",
+		"article_link":"heartburn.html",
+		"article_date":"November 20, 2016",
+		"article_image":"images/heartburn.jpg"
+	},
+	{  
+		"article_name":"Women, It's Time to Ramp Up Your Sex Life",
+		"article_link":"women-sex-life.html",
+		"article_date":"December 16, 2016",
+		"article_image":"images/sexy-woman.jpg"
 	}
 	];
 
@@ -122,10 +160,10 @@ $(document).ready(function($){
 		var output = '<div>';
 		var count = 1;
 		$.each(data, function(key, val){
-			if ((val.article_date.search(regex) != -1) || (val.article_name.search(regex) != -1)) {
+			if ((val.article_name.search(regex) != -1)) {
 				output += '<div class="result-box">';
 				output += '<a href="'+val.article_link+'" >';
-				output += '<div class="search-photo"><img src="'+val.profile_image+'" alt="'+ val.article_name +'" /></div>';
+				output += '<div class="search-photo"><img src="'+val.article_image+'" alt="'+ val.article_name +'" /></div>';
 				output += '<div class="search-details">';
 				output += '<p class="name">' + val.article_name + '</p>';
 				output += '<p class="date">' + val.article_date + '</p>';
@@ -134,11 +172,9 @@ $(document).ready(function($){
 				output += '<div class="clear"></div>';
 				output += '</div>';
 				count++;
+				(val.article_name.search(regex) )
 			}
 
-			else {
-				output = '<div class="result-box"><p>Sorry, nothing found</p></div>';
-			}
 		});
 		output += '</div>';
 		$('.search-results').html(output);

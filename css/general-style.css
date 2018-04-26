@@ -25,6 +25,10 @@ a:link, a:visited, a:active{text-decoration: none; color: inherit;}
 .font20{font-size: 20px;}
 .font23{font-size: 23px;}
 .link:hover{cursor: pointer; text-decoration: underline;}
+.marg30{margin: 30px 0;}
+.grey-small{font-size: 12px; color: #c1c1c1; margin-bottom: 7px !important;}
+.next-links{font-size: 14px;}
+.next-links:hover{color: #3377d6;}
 
 header{background: url('../images/HFD_header.png') no-repeat; background-size: cover; min-height: 185px; margin-bottom: 30px;}
 header img{max-width: 16%;}
