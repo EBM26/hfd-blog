@@ -146,6 +146,18 @@ $(document).ready(function($){
 		"article_link":"women-sex-life.html",
 		"article_date":"December 16, 2016",
 		"article_image":"images/sexy-woman.jpg"
+	},
+	{  
+		"article_name":"The TRUTH About Glucosamine and Your Joints",
+		"article_link":"glucosamine.html",
+		"article_date":"January 10, 2017",
+		"article_image":"images/glucosamine.jpg"
+	},
+	{  
+		"article_name":"How Your Modern Life is Making You Sick",
+		"article_link":"moder-life.html",
+		"article_date":"February 17, 2017",
+		"article_image":"images/moder-life.jpg"
 	}
 	];
 
