@@ -1,84 +1,142 @@
-<script>
-  window.location.replace("air-health.html");
-</script>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Coming Soon</title>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" >
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style type="text/css">
-body {
-  /*background: linear-gradient(90deg, white, gray);*/
-  background-color: #eee;
-}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116984086-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-body, h1, p {
-  font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: normal;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.container {
-  margin-left:  auto;
-  margin-right:  auto;
-  margin-top: 177px;
-  max-width: 1170px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.row:before, .row:after {
-  display: table;
-  content: " ";
-}
-
-h1 {
-  font-size: 48px;
-  font-weight: 300;
-  margin: 0 0 20px 0;
-}
-
-.lead {
-  font-size: 21px;
-  font-weight: 200;
-  margin-bottom: 20px;
-}
-
-p {
-  margin: 0 0 10px;
-}
-
-a {
-  color: #3282e6;
-  text-decoration: none;
-}
-</style>
+    gtag('config', 'UA-116984086-1');
+  </script>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+  <meta name="description" content="Healthy Family Digest is a health blog committed to providing health information to ensure your family will always be at their optimum health levels.">
+  <link rel="icon" type="image/x-icon" href="images/HHD-LOGO.png" />
+  <link rel="stylesheet" href="css/blog-style.css">
+  <title>Home Page | Healthy Family Digest</title>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 </head>
-
 <body>
-<div class="container text-center" id="error">
+  <div class="wrapper">
+    <header>
+      <div class="row">
+        <div class="container">
+          <img src="images/HHD-LOGO.png" alt="Healthy Family Digest Logo">
+          <img src="images/HFD_LOGO_words.png" alt="Healthy Family Words">
+          <!-- mobile navbar   -->
+          <div class="mobile-nav-button desktop-hide">
+            <div class="mobile-nav-button__line"></div>
+            <div class="mobile-nav-button__line"></div>
+            <div class="mobile-nav-button__line"></div>
+          </div>
+          <nav class="mobile-menu">
+            <ul>
+              <li class="center"><input type="text" class="search-input mobile-input" placeholder="Search Articles">
+                <div class="search-results"></div>
+                <li><a href="home.html">home</a></li>
+                <li><a href="healthy-body.html">healthy body</a></li>
+                <li><a href="healthy-mind.html">healthy mind</a></li>
+                <li><a href="healthy-food.html">healthy food</a></li>
+                <li><a href="healthy-home.html">healthy home</a></li>            
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- desktop navbar  -->
+        <div class="navbar mobile-hide center">
+          <div class="container">
+          <div class="nav-inside">
+            <a href="home.html" class="site-color">home</a>
+            <a href="healthy-body.html" class="hvr-grow">healthy body</a>
+            <a href="healthy-mind.html" class="hvr-grow">healthy mind</a>
+            <a href="healthy-food.html" class="hvr-grow">healthy food</a>
+            <a href="healthy-home.html" class="hvr-grow">healthy home</a>
+            <img src="images/search.png" alt="search icon" class="search-img hvr-grow">
+            <div class="search-box">
+              <span class="close">X</span>
+              <input type="text" class="search-input" placeholder="Search Articles">
+              <div class="search-results"></div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </header>
 
-  <svg height="100" width="100">
-    <circle cx="50" cy="50" r="31" stroke="#679b08" stroke-width="9.5" fill="none" />
-    <circle cx="50" cy="50" r="6" stroke="#679b08" stroke-width="1" fill="#679b08" />
-    <line x1="50" y1="50" x2="35" y2="50" style="stroke:#679b08;stroke-width:6" />
-    <line x1="65" y1="35" x2="50" y2="50" style="stroke:#679b08;stroke-width:6" />
-    <path d="M59 65 L83 65 L75 87 Z" fill="#679b08" />
-    <rect width="20" height="9" x="70" y="56" style="fill:#eee;stroke-width:0;" />
-  </svg>
-  <div class="row">
-    <div class="col-md-12">
-      <div class="main-icon text-success"><span class="uxicon uxicon-clock-refresh"></span></div>
-      <h1>Future home of something quite cool.</h1>
-      <p class="lead">If you're the <strong>site owner</strong>, <a href="/cpanel">log in</a> to launch this site</p>
-      <p class="lead">If you are a <strong>visitor</strong>, check back soon.</p>
-    </div>
+    <div class="row">
+    <div class="container"> 
+
+      <!-- ******** Main Content ********* -->
+      <div id="home-content">
+        <div id="article-container"></div>       
+        <div class="clear"></div>
+
+        <div class="social-share">
+            <!-- Email -->
+                <div class="button-icons hvr-grow-shadow">
+                <a href="mailto:?Subject=Simple Healthy Family Digest&amp;body=Check out this awesome article http://healthyfamilydigest.org/home.html">
+                    <img src="images/share_email.svg" alt="Email" class="icons" id="email-icon" />
+                </a>
+                </div>
+                <!-- Facebook -->
+                <div class="button-icons hvr-grow-shadow">
+                <a href="http://www.facebook.com/sharer.php?u=http://healthyfamilydigest.org/home.html"  target="_Blank">
+                    <img src="images/share_facebook.svg" alt="Facebook" class="icons" />
+                </a>
+                </div>
+                <!-- Google+ -->
+                <div class="button-icons hvr-grow-shadow">
+                <a href="https://plus.google.com/share?url=http://healthyfamilydigest.org/home.html" target="_Blank">
+                    <img src="images/share_googleplus.svg" alt="Google" class="icons"/>
+                </a>
+                </div>
+                <!-- Twitter -->
+                <div class="button-icons hvr-grow-shadow">
+                <a href="https://twitter.com/share?url=http://healthyfamilydigest.org/home.html&amp;text=Healthy%20Family%20Digest" target="_Blank">
+                    <img src="images/share_twitter.svg" alt="Twitter" class="icons" />
+                </a>
+                </div>
+             </div>
+
+      </div><!--  main content -->
+
+
+      <div class="clear"></div>
+      <a href="#0" class="cd-top">Top</a>
+      </div><!--  end of container -->
+    </div><!--  end of row -->
+
+    <footer>
+      <div class="row">
+        <div class="container mobile-center">         
+          <div class="footer-image Fleft">
+            <img src="images/HHD-LOGO.png" alt="Healthy Family Digest Logo">
+            <img src="images/HFD_LOGO_words.png" alt="Healthy Family Words">
+          </div>
+          <div class="footer-details Fleft">
+            <div class="footer-nav">
+              <a href="home.html" class="hvr-grow">home</a>
+              <a href="healthy-body.html" class="hvr-grow">healthy body</a>
+              <a href="healthy-mind.html" class="hvr-grow">healthy mind</a>
+              <a href="healthy-food.html" class="hvr-grow">healthy food</a>
+              <a href="healthy-home.html" class="hvr-grow">healthy home</a>
+            </div>
+            <p>This Site is not intended to provide diagnosis, treatment or medical advice. Products, services, information and other content provided on this Site, including information that may be provided on this Site directly or by linking to third-party websites are provided for informational purposes only. Please consult with a physician or other healthcare professional regarding any medical or health related diagnosis or treatment options.</p>
+            <p>Statements made, or products sold through this website, have not been evaluated by the United States Food and Drug Administration. They are not intended to diagnose, treat, cure or prevent any disease.</p>
+            <p class="noMarg">&copy;healthyfamilydigest.org <span id="date"></span></p>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
   </div>
-
-</div>
-
 </body>
 </html>

@@ -91,73 +91,177 @@ $(document).ready(function($){
 		"article_name":"Is Your Home Making You Sick",
 		"article_link":"air-health.html",
 		"article_date":"March 23, 2018",
-		"article_image":"images/pollen_sad_face.jpg"
+		"article_image":"images/sick.jpg", 
+		"article_section": "Healthy Home", 
+		"article_author": "<b>Bill Lewis</b>"
 	},
 	{  
 		"article_name":"3 Unexpected Links to Alzheimer's Disease You Need to Know",
 		"article_link":"altzheimers.html",
 		"article_date":"July 12, 2016",
-		"article_image":"images/old-man.jpg"
+		"article_image":"images/old-man.jpg",
+		"article_section": "Healthy Mind", 
+		"article_author": "<b>Nicole Trelour, ND</b>"
 	},
 	{  
 		"article_name":"Bladder Problems? 10 Ways to Train Your Bladder",
 		"article_link":"bladder-training.html",
 		"article_date":"April 24, 2016",
-		"article_image":"images/training.jpg"
+		"article_image":"images/training.jpg", 
+		"article_section": "Healthy Body", 
+		"article_author": "<b>Nicole Trelour, ND</b>"
 	},
 	{  
 		"article_name":"Your Grandmother Would NEVER Eat Today's Veggies",
 		"article_link":"healthy-veggies.html",
 		"article_date":"February 4, 2017",
-		"article_image":"images/carrots-big2.jpg"
+		"article_image":"images/carrots-big2.jpg", 
+		"article_section": "Healthy Food",
+		"article_author": "<b>Nicole Trelour, ND</b>"
 	},
 	{  
 		"article_name":"How to Take Control of Your Insomnia",
 		"article_link":"insomnia.html",
 		"article_date":"August 29, 2016",
-		"article_image":"images/insomnia.jpg"
+		"article_image":"images/insomnia.jpg",
+		"article_section": "Healthy Body",
+		"article_author": "<b>Nicole Trelour, ND</b>"
 	},
 	{  
 		"article_name":"Daily Joint Pain Relief: A Short Guide",
 		"article_link":"joint-pain.html",
 		"article_date":"June 2, 2016",
-		"article_image":"images/joint-pain.jpg"
+		"article_image":"images/joint-pain.jpg",
+		"article_section": "Healthy Body",
+		"article_author": "<b>Nicole Trelour, ND</b>"
 	},
 	{  
 		"article_name":"6 Shocking Foods That Are Healthier Than You Thought",
 		"article_link":"shocking-foods.html",
 		"article_date":"September 22, 2016",
-		"article_image":"images/eggs.jpg"
+		"article_image":"images/eggs.jpg",
+		"article_section": "Healthy Food",
+		"article_author": "<b>Nicole Trelour, ND</b>"
 	},
 	{  
 		"article_name":"The All-Natural Way to Prevent Migraines",
 		"article_link":"migraines.html",
 		"article_date":"October 14, 2016",
-		"article_image":"images/headache.jpg"
+		"article_image":"images/headache.jpg",
+		"article_section": "Healthy Body",
+		"article_author": "<b>Nicole Trelour, ND</b>"
 	},
 	{  
 		"article_name":"The All-Natural Way to Prevent Migraines",
 		"article_link":"heartburn.html",
 		"article_date":"November 20, 2016",
-		"article_image":"images/heartburn.jpg"
+		"article_image":"images/heartburn.jpg",
+		"article_section": "Healthy Body",
+		"article_author": "<b>Nicole Trelour, ND</b>"
 	},
 	{  
 		"article_name":"Women, It's Time to Ramp Up Your Sex Life",
 		"article_link":"women-sex-life.html",
 		"article_date":"December 16, 2016",
-		"article_image":"images/sexy-woman.jpg"
+		"article_image":"images/sexy-woman.jpg",
+		"article_section": "Healthy Body",
+		"article_author": "<b>Nicole Trelour, ND</b>"
 	},
 	{  
 		"article_name":"The TRUTH About Glucosamine and Your Joints",
 		"article_link":"glucosamine.html",
 		"article_date":"January 10, 2017",
-		"article_image":"images/glucosamine.jpg"
+		"article_image":"images/glucosamine.jpg",
+		"article_section": "Healthy Body",
+		"article_author": "<b>Nicole Trelour, ND</b>"
 	},
 	{  
 		"article_name":"How Your Modern Life is Making You Sick",
-		"article_link":"moder-life.html",
+		"article_link":"modern-life.html",
 		"article_date":"February 17, 2017",
-		"article_image":"images/moder-life.jpg"
+		"article_image":"images/modern-life.jpg",
+		"article_section": "Healthy Body",
+		"article_author": "<b>Nicole Trelour, ND</b>"
+	},	
+	{  
+		"article_name":"Turmeric: All You Need to Know about this Life-Changing Spice",
+		"article_link":"tumeric.html",
+		"article_date":"March 21, 2017",
+		"article_image":"images/tumeric.jpg",
+		"article_section": "Healthy Food",
+		"article_author": "<b>Nicole Trelour, ND</b>"
+	},
+	{  
+		"article_name":"Aloe Vera: Natural Healing with Nature's Miracle Plant",
+		"article_link":"aloevera.html",
+		"article_date":"April 16, 2017",
+		"article_image":"images/aloevera.jpg",
+		"article_section": "Healthy Food",
+		"article_author": "<b>Nicole Trelour, ND</b>"
+	},
+	{  
+		"article_name":"Your Guide to Chia: the most Underrated Superfood",
+		"article_link":"chia.html",
+		"article_date":"May 1, 2017",
+		"article_image":"images/chia.jpg",
+		"article_section": "Healthy Food",
+		"article_author": "<b>Nicole Trelour, ND</b>"
+	},
+	{  
+		"article_name":"5 Health-Saving Teas: A Complete Guide",
+		"article_link":"teas.html",
+		"article_date":"June 23, 2017",
+		"article_image":"images/teas.jpg",
+		"article_section": "Healthy Food",
+		"article_author": "<b>Nicole Trelour, ND</b>"
+	}, 
+	{  
+		"article_name":"How Well Do You Know NSAIDs: A Quiz",
+		"article_link":"nsaids.html",
+		"article_date":"August 16, 2017",
+		"article_image":"images/nsaids.jpg",
+		"article_section": "Healthy Body",
+		"article_author": "<b>Nicole Trelour, ND</b>"
+	}, 
+	{  
+		"article_name":"Manage Your Depression: 5 Easy Steps",
+		"article_link":"depression.html",
+		"article_date":"October 10, 2017",
+		"article_image":"images/depression.jpg",
+		"article_section": "Healthy Mind", 
+		"article_author": "<b>Nicole Trelour, ND</b>"
+	}, 
+	{  
+		"article_name":"Natural Alternatives to Some Common Prescriptions",
+		"article_link":"prescriptions.html",
+		"article_date":"November 19, 2017",
+		"article_image":"images/prescriptions.jpg",
+		"article_section": "Healthy Body",
+		"article_author": "<b>Nicole Trelour, ND</b>"
+	}, 
+	{  
+		"article_name":"Life &amp; Sex After Menopause: 5 Myths Dispelled",
+		"article_link":"menopause.html",
+		"article_date":"December 22, 2017",
+		"article_image":"images/menopause.jpg",
+		"article_section": "Healthy Body",
+		"article_author": "<b>Nicole Trelour, ND</b>"
+	}, 
+	{  
+		"article_name":"Extra Virgin Olive Oil (EVOO): 6 Important Health Benefits You May Not Know",
+		"article_link":"oliveoil.html",
+		"article_date":"January 19, 2018",
+		"article_image":"images/oliveoil.jpg",
+		"article_section": "Healthy Food",
+		"article_author": "<b>Nicole Trelour, ND</b>"
+	}, 
+	{  
+		"article_name":"Understanding Allergies: A Short Quiz",
+		"article_link":"allergies.html",
+		"article_date":"February 7, 2018",
+		"article_image":"images/allergies.jpg",
+		"article_section": "Healthy Body",
+		"article_author": "<b>Nicole Trelour, ND</b>"
 	}
 	];
 
@@ -197,15 +301,23 @@ $(document).ready(function($){
 	$('#title1').html('Is Your Home Making You Sick');
 	$('#author1').html('<b>Bill Lewis</b> - March 23, 2018');
 	$('#link1').attr("href", "air-health.html");
-	$('#title2').html('How Safe Is Your Water');
-	$('#author2').html('<b>Nicole Trelour, ND</b> - February 12, 2017');
-	$('#link2').attr("href", "air-health.html");
-	$('#title3').html('Air Health Inside and Out');
-	$('#author3').html('<b>Nicole Trelour, ND</b> - April 6, 2017');
-	$('#link3').attr("href", "air-health.html");
-	$('#title4').html('The New Way to Get Energy');
-	$('#author4').html('<b>Nicole Trelour, ND</b> - October 9, 2017');
-	$('#link14').attr("href", "air-health.html");
+	$('#title2').html('Understanding Allergies: A Short Quiz');
+	$('#author2').html('<b>Nicole Trelour, ND</b> - February 7, 2018');
+	$('#link2').attr("href", "allergies.html");
+	$('#title3').html('Extra Virgin Olive Oil (EVOO): 6 Important Health Benefits You May Not Know');
+	$('#author3').html('<b>Nicole Trelour, ND</b> - January 19, 2018');
+	$('#link3').attr("href", "oliveoil.html");
+	$('#title4').html('Life &amp; Sex After Menopause: 5 Myths Dispelled');
+	$('#author4').html('<b>Nicole Trelour, ND</b> - December 22, 2017');
+	$('#link14').attr("href", "menopause.html");
+
+
+
+	// home page article function
+	data.forEach( function(element, index) {
+		$("#article-container").append('<a href="'+element.article_link+'" class="article_date"> <div class="article-div hvr-grow" style="background:url('+element.article_image+') no-repeat"> <div class="home-info-div"><div class="info-wrapper"><p class="article_section">'+element.article_section+'</p></div> <br><div class="info-wrapper"><p class="article_name">'+element.article_name+'</p></div><br><div class="info-wrapper"><p class="home_author"><span class="article_author">'+element.article_author+'</span> - <span class="article_date">'+element.article_date+'</span></p></div></div></div> </a>');
+	});
+
 
 }); // end of document ready function
 

@@ -33,7 +33,7 @@ sup{font-size: 15px;}
 .padtop10{padding-top: 10px;}
 .desktop-hide{display: none;}
 .wrapper{position: relative; overflow: hidden;}
-.site-color{color: #3377d6;}
+.site-color{color: #3377d6 !important;}
 .marg30{margin: 30px 0;}
 
 /*	header css */
@@ -46,6 +46,14 @@ header img{max-width: 110px;}
 /* Grow */
 .hvr-grow{display: inline-block; vertical-align: middle; transform: translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); backface-visibility: hidden; -moz-osx-font-smoothing: grayscale; transition-duration: 0.3s; transition-property: transform;}
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active{transform: scale(1.1);}
+
+/*  home page css  */
+.article-div{float: left; width: 30%; height: 320px; background-size: cover !important; text-align: center; color: #fff; margin: 1%}
+.article_section{text-transform: uppercase;}
+.home_author{font-size: 12px; margin-top: 5px;}
+.info-wrapper{background: rgba(51, 119, 214, .8); display: inline-block; padding: 6px; margin-bottom: 10px; max-width: 85%;}
+.home-info-div{padding-top: 30%;}
+.article_name{text-transform: uppercase;}
 		
 /*	main content css */
 #bread-crumbs{color: #3377d6; font-size: 12px;}
@@ -76,8 +84,10 @@ h1{font-size: 41px; margin-bottom: 5px; font-family: 'Roboto', sans-serif; font-
 .caption{margin-top: 5px; font-size: 12px;}
 #author-box{margin: 20px auto; padding: 15px 10px;}
 .author-details{width: 75%; font-size: 14px; margin-left: 30px;}
-.number-list{margin-left: 25px;}
+.number-list, .alphabet-list{margin-left: 25px;}
 .number-list li{margin-bottom: 10px;}
+.alphabet-list{list-style-type: upper-alpha; margin-top: 10px;}
+.alphabet-list li{margin-bottom: 5px;}
 .grey-small{font-size: 12px; color: #c1c1c1; margin-bottom: 7px !important;}
 .next-links{font-size: 14px;}
 .next-links:hover{color: #3377d6;}
@@ -180,7 +190,7 @@ footer p{margin-bottom: 15px;}
 		.footer-nav a{margin: 0 2% !important; line-height: 2;}
 		.result-box a{color: #222 !important;}
 		.previous-article{margin-bottom: 25px;}
-
-
+		.home-info-div{padding-top: 15%;}
+		.article-div{float: none; width: 100%; height: 250px; margin: 2% auto;}
 }
 
