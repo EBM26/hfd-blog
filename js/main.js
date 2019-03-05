@@ -332,7 +332,7 @@ $(document).ready(function($){
 	$('#link3').attr("href", data[2].article_link);
 	$('#title4').html(data[3].article_name);
 	$('#author4').html(data[3].article_author +' - '+ data[3].article_date);
-	$('#link14').attr("href", data[3].article_link);
+	$('#link4').attr("href", data[3].article_link);
 
 
 

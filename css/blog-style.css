@@ -106,7 +106,6 @@ h1{font-size: 41px; margin-bottom: 5px; font-family: 'Roboto', sans-serif; font-
 /*right column css */
 #right-column{width: 25%; margin-top: 40px;}
 .ad-box{margin-top: 60px; text-align: center;}
-.ad-box img{display: block;}
 .recent-div h2{font-weight: normal; border-bottom: 1px solid #3377d6; display: inline-block; margin-bottom: 10px;}
 .recent{margin-top: 10px; padding-bottom: 20px; cursor: pointer;}
 .recent-author{font-size: 12px; margin-top: 5px;}
